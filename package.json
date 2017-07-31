@@ -5,10 +5,9 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "webpack-dev-server  --compress --port 8081  --host 0.0.0.0",
+    "start": "webpack-dev-server  --compress --port 8800  --host 0.0.0.0",
     "publishwebsite": "webpack --verbose --colors --display-error-details --config webpack.website.config.js ",
-    "product": "webpack --verbose --colors --display-error-details --config webpack.config.js ",
-    "test": "mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive"
+    "product": "webpack --verbose --colors --display-error-details --config webpack.config.js "
   },
   "dependencies": {
     "antd": "^1.5.1",
@@ -48,7 +47,6 @@
     "babel-preset-stage-0": "^6.5.0",
     "chai": "3.5.0",
     "chai-immutable": "1.5.3",
-    "mocha": "2.4.5",
     "eslint": "2.x",
     "eslint-config-airbnb": "6.x",
     "eslint-plugin-react": "4.x",
@@ -62,7 +60,7 @@
     "css-loader": "0.23.1",
     "url-loader": "^0.5.7",
     "file-loader": "^0.8.5",
-    "imports-loader": "^0.6.5",  
+    "imports-loader": "^0.6.5",
     "exports-loader": "^0.6.3",
     "webpack": "1.12.14",
     "webpack-dev-server": "1.14.1",
@@ -78,4 +76,3 @@
     ]
   }
 }
-
